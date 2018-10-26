@@ -11,5 +11,7 @@ end
 
 def countdown_with_sleep(to_midnight)
   sleep 5
-  while to_midnight 
+  while to_midnight > 0
+  puts "#{to_midnight"} SECOND(S)!"
+  to_midnight -= 1
 end
