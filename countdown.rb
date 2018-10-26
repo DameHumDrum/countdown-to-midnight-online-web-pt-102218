@@ -1,6 +1,6 @@
 #write your code here
 
-def countdown(x)
+def countdown(seconds_to_midnight)
   x = 10
   while x > 0
    x -= 1
@@ -8,4 +8,3 @@ def countdown(x)
   "HAPPY NEW YEAR!"
 end
 end
-countdown(x)
