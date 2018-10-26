@@ -8,4 +8,3 @@ def countdown(to_midnight)
   return "HAPPY NEW YEAR!"
 end
 end
-to_midnight
